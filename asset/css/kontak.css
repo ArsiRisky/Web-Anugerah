@@ -4,19 +4,59 @@
 }
 
 .kontak .card {
+    border-radius: 15px;
     border: none;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #f5f5f5;
 }
 
 .kontak .logo {
     width: 100px;
 }
 
-.kontak .media i {
+.kontak .media {
     color: #00A859;
 }
 
 .kontak .form-control {
     border: none;
+    border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: #00A859;
+    background-color: #f5f5f5;
+}
+
+.kontak textarea {
+    height: 150px;
+}
+
+.kontak .form-control::-webkit-input-placeholder {
+    color: #00A859;
+}
+
+.kontak .send {
+    border-radius: 10px;
+    border: 2px solid #00A859;
+    background-color: #00A859;
+    color: #f5f5f5;
+}
+
+.kontak .send:hover {
+    transition: 0.5s ease-in-out;
+    background-color: transparent;
+    color: #00A859;
+}
+
+.kontak .text {
+    width: 90%;
+    padding: 10px;
+}
+
+.kontak .text .lead {
+    font-weight: 400;
+    color: #303030;
+}
+
+.kontak .text .media {
+    cursor: pointer;
 }

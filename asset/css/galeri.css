@@ -1,7 +1,7 @@
 .galeri img {
     padding: 10px;
     height: 250px;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 .galeri h1 {
@@ -12,4 +12,11 @@
 .logo img {
     height: 60px;
     width: 60px;
+}
+
+.galeri img:hover {
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }

@@ -1,9 +1,17 @@
 .produk .jumbotron {
-    background-color: #fff;
+    background-color: #f5f5f5;
 }
 
 .produk .card {
     border: none;
+    background-color: #f5f5f5;
+    border-radius: 25px;
+}
+
+.produk .card:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
 }
 
 .produk img {
@@ -14,11 +22,17 @@
 
 .produk .card .btn {
     background-color: #00A859;
-    color: #fff;
+    color: #f5f5f5;
     border: 2px solid #00A859;
 }
 
+.produk .card .card-text,
+.produk .card .card-title {
+    color: #303030;
+}
+
 .produk .card .btn:hover {
+    transition: 0.5s ease-in-out;
     border: 2px solid #00A859;
     background-color: transparent;
     color: #00A859;
@@ -33,7 +47,7 @@
 .produk .caousel-active {
     width: 40px;
     height: 10px;
-    background-color: #fff;
+    background-color: #f5f5f5;
 }
 
 @media screen and (max-width:680px) {
