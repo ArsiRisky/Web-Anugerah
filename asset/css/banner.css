@@ -1,0 +1,19 @@
+.jumbotron {
+    margin: 0;
+    border-radius: 0;
+}
+
+.banner .jumbotron {
+    color: #fff;
+    margin: 0;
+    height: 100vh;
+    background-image: url(../../img/back.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner .btn {
+    border-color: #fff;
+    color: #fff;
+}

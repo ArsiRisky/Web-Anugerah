@@ -1,0 +1,53 @@
+.navbar {
+    background-color: transparent;
+}
+
+.navbar .navbar-toggler i {
+    color: #fff;
+}
+
+.navbar .btn-green {
+    background-color: #00A859;
+    color: #fff;
+    border: 2px solid #00A859;
+}
+
+.navbar .btn-green:hover {
+    border: 2px solid #00A859;
+    background-color: transparent;
+    color: #00A859;
+}
+
+.navbar .btn-green:hover i {
+    color: #00A859;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.sticky {
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sticky .navbar-toggler i {
+    color: #00A859;
+}
+
+.sticky a {
+    color: #303030;
+}
+
+.form-inline {
+    display: none;
+}
+
+.form-control {
+    margin: 0;
+
+}

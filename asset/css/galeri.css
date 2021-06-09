@@ -1,0 +1,15 @@
+.galeri img {
+    padding: 10px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.galeri h1 {
+    font-weight: bold;
+    color: #00A859;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+}

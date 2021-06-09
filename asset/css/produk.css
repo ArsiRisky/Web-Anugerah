@@ -1,0 +1,43 @@
+.produk .jumbotron {
+    background-color: #fff;
+}
+
+.produk .card {
+    border: none;
+}
+
+.produk img {
+    padding: 10px;
+    border-radius: 30px;
+    height: 200px;
+}
+
+.produk .card .btn {
+    background-color: #00A859;
+    color: #fff;
+    border: 2px solid #00A859;
+}
+
+.produk .card .btn:hover {
+    border: 2px solid #00A859;
+    background-color: transparent;
+    color: #00A859;
+}
+
+.produk .cirlce {
+    width: 10px;
+    border-radius: 50%;
+    height: 10px;
+}
+
+.produk .caousel-active {
+    width: 40px;
+    height: 10px;
+    background-color: #fff;
+}
+
+@media screen and (max-width:680px) {
+    .produk img {
+        height: auto;
+    }
+}

@@ -1,0 +1,22 @@
+.kontak h1 {
+    font-weight: bold;
+    color: #00A859;
+}
+
+.kontak .card {
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.kontak .logo {
+    width: 100px;
+}
+
+.kontak .media i {
+    color: #00A859;
+}
+
+.kontak .form-control {
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

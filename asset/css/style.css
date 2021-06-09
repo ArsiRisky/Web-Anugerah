@@ -1,0 +1,41 @@
+@import "navbar.css";
+@import "banner.css";
+@import "produk.css";
+@import "galeri.css";
+@import "kontak.css";
+@import "footer.css";
+
+* {
+    scroll-behavior: smooth;
+}
+
+/* color */
+.green {
+    color: #00A859;
+}
+
+.scroll {
+    width: 60px;
+    z-index: 1000;
+    position: fixed;
+    bottom: 40px;
+    right: 0;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 25px 0 0 25px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.scroll i {
+    font-size: 15px;
+    color: #00A859;
+}
+
+.scroll:hover {
+    transition: 0.5s;
+    width: 90px;
+}

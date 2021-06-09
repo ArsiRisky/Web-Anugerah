@@ -1,0 +1,83 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.profil {
+    background-color: #E4F5ED;
+    padding: 80px 0;
+}
+
+.profil h3 {
+    font-weight: bold;
+    color: #00A859;
+}
+
+.profil img {
+    justify-content: right;
+}
+
+.visi {
+
+    padding: 80px 0;
+}
+
+.visi h3 {
+
+    color: #00A859;
+    font-weight: bold;
+}
+
+.visi img{
+    width: 250px;
+    height: auto;
+    text-align: center;
+}
+
+.pimpinan {
+
+    padding: 80px 0;
+}
+
+.pimpinan h3 {
+
+    color: #00A859;
+    font-weight: bold;
+}
+
+.pimpinan .card {
+
+    padding: 80px 0;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: none;
+
+}
+
+.penghargaan {
+
+    padding: 80px 0;
+}
+
+.penghargaan h3 {
+
+    color: #00A859;
+    font-weight: bold;
+}
+
+.penghargaan .card {
+
+    padding: 80px 0;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: none;
+}
+
+
+@media screen and (max-width:680px) {
+    .visi img {
+        width: 50%;
+    }
+}
