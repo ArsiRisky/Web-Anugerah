@@ -38,3 +38,21 @@
     background-color: #00A859;
     color: #f5f5f5;
 }
+
+@media screen and (max-width:680px) {
+    .footer .col-sm-4 {
+        width: 50%;
+    }
+
+    .footer .about {
+        width: 100%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .footer .logo {
+        width: 100px;
+    }
+}
